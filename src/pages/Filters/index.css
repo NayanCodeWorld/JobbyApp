@@ -1,0 +1,45 @@
+.employmentType-list-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.employmentType-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.employmentType-checkbox-label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.salary-heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.salary-options-label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.salary-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}

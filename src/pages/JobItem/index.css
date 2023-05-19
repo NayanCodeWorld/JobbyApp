@@ -1,0 +1,188 @@
+* {
+  text-decoration: none;
+}
+
+.jobItem-bg-container {
+  list-style-type: none;
+  width: 100%;
+  background-color: #272727;
+  border: none;
+  border-radius: 16px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+  /* border: 2px dotted Red; */
+}
+
+.jobItem-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.jobItem-rating-container {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.jobItem-logo {
+  width: 40px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-logo {
+    width: 60px;
+  }
+}
+
+.jobItem-job-name {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-job-name {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+}
+
+.jobItem-rating-img {
+  color: #fbbf24;
+  width: 15px;
+  margin-left: 15px;
+}
+
+.jobItem-rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-rating {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  .jobItem-rating-img {
+    width: 17px;
+    margin-left: 20px;
+  }
+}
+
+.jobItem-mid-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobItem-mid-inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.jobItem-mid-inner-location-container {
+  display: flex;
+  align-items: center;
+}
+
+.jobItem-mid-inner-jobType-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.jobItem-location-icon {
+  color: #ffffff;
+  width: 16px;
+}
+
+.jobItem-location {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-location-icon {
+    font-size: 18px;
+  }
+  .jobItem-location {
+    width: 14px;
+    margin-left: 8px;
+  }
+}
+
+.jobItem-jobType-icon {
+  color: #ffffff;
+  width: 16px;
+}
+
+.jobItem-jobType {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-jobType-icon {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+  .jobItem-jobType {
+    width: 14px;
+    margin-left: 12px;
+  }
+}
+
+.line {
+  width: 100%;
+  color: #7e858e;
+  margin-top: 10px;
+}
+
+.jobItem-package {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+@media screen and (min-width: 576px) {
+  .jobItem-package {
+    font-size: 18px;
+  }
+  .line {
+    margin-top: 18px;
+  }
+}
+
+.jobItem-description-heading {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.jobItem-description {
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 10px;
+}
